@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>form1</title>
+	</head>
+	<body>
+		<form method='post' action='process.html'>
+			<table border='1' width='80%'>
+				<tr>
+					<th>
+						<label for='Surname'>Surame</label>
+					</th>
+					<td> 
+						<input name='Surname' id='name' type='text'/>  
+					</td>
+				</tr>
+			
+			<tr>
+				<th>Gender</th>
+				<td>
+					<input type='radio' name='gender' value='m' id='m' checked='checked'/>
+					<label for='m'>Male</label>
+					<input type='radio' name='gender' value='f' id='f'/>
+					<label for='f'>Female</label>
+				</td>
+			</tr>
+			<tr>
+				<th>Hobbies</th>
+				<td><input type='checkbox' name='Singing' value='Singing' id='Singing'/> <label for='Singing'> Singing </label>
+				<input type='checkbox' name='Driving' value='Driving' id='Driving'/> <label for='Driving'> Driving </label>
+				<input type='checkbox' name='Reading' value='Reading' id='Reading'/> <label for='Reading'> Reading </label>
+				<input type='checkbox' name='Swimming' value='Swimming' id='Swimming'/> <label for='Swimming'> Swimming </label>
+				</td>
+			</tr>
+			<tr>
+				<th>Photo</th>
+				<td>
+					<input type='file' id='Photo' multiple /> <label for='Photo'>Photo</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<th></th>
+				<td>
+				<input type='submit' value='Submit'>
+				</td>
+			</tr>
+			</table>
+
+	
+	</body>
+</html>
